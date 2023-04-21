@@ -1,0 +1,23 @@
+{
+  "name": "lets-discuss",
+  "version": "1.0.0",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack",
+    "dev": "webpack serve",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "babel-preset-solid": "^1.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "prettier": "^2.8.7",
+    "solid-js": "^1.7.3",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
